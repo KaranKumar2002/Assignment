@@ -1,0 +1,33 @@
+body{
+    /* padding: 100px 100px 100px; */
+}
+div
+{
+   display:inline-block;
+   height:100px;
+   width: 100px;
+   background-color: rgb(236, 14, 14);
+   padding: 10px;
+   text-align: center;
+   align-content: center;
+   border: solid;
+   border-radius: 5px;
+}
+
+#YELLOW
+{
+    background-color: yellow;
+    
+}
+#GREEN
+{
+    background-color: green;
+}
+#BLUE
+{
+    background-color: blue;
+}
+#RED
+{
+    background-color: red;
+}
