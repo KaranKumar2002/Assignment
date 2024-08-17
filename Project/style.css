@@ -1,12 +1,9 @@
-body{
-    /* padding: 100px 100px 100px; */
-}
-div
+ 
+.button
 {
    display:inline-block;
    height:100px;
-   width: 100px;
-   background-color: rgb(236, 14, 14);
+   width: 160px;
    padding: 10px;
    text-align: center;
    align-content: center;
@@ -22,10 +19,13 @@ div
 #GREEN
 {
     background-color: green;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #BLUE
 {
     background-color: blue;
+    padding-right:20px;
 }
 #RED
 {
