@@ -1,0 +1,27 @@
+body
+{   
+    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+
+.main
+{  
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    border: solid;
+    text-align: center;
+    align-content: center;
+    background-color: aqua;
+}
+.button
+{
+    margin-top: 50px;
+}
+.next
+{
+    margin-left: 200px;
+}
+
