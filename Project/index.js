@@ -27,10 +27,12 @@ button.forEach((b)=>{
       b.addEventListener('click',(e)=>{
         const h2=document.createElement('h2');
         
+        
         if(e.target.id==="YELLOW")
             {  
               h2.innerHTML="YOU HAVE CHOSEN THE YELLOW ONE"
-              body.style.backgroundColor="yellow"
+              body.style.backgroundColor="yellow"         
+
             }
             else if(e.target.id==="GREEN")
             {
