@@ -7,7 +7,8 @@ next.addEventListener('click',(e)=>{
   n++;
   n=n%images.length; 
   image.src=images[n];
-  body.style.background=image;
-
+})
+image.addEventListener('mouseover',()=>{
+  body.style.backgroundImage='url(' + images[n] + ')';
 })
 
