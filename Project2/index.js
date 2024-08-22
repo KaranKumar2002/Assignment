@@ -3,12 +3,17 @@ const next=document.querySelector('.next');
 let n=0 // pointer to the next image in the images array
 const image=document.querySelector('.hero');
 const body=document.querySelector('body');
+let IntervalId=null;
 next.addEventListener('click',(e)=>{
-  n++;
-  n=n%images.length; 
-  image.src=images[n];
+  clearInterval(IntervalId);
+  IntervalId=setInterval(()=>{
+    n++;
+    n=n%images.length;
+    image.src=images[n];
+   },1000)
 })
-image.addEventListener('mouseover',()=>{
-  body.style.backgroundImage='url(' + images[n] + ')';
+image.addEventListener('click',()=>{
+   clearInterval(IntervalId);
 })
+
 
