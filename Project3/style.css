@@ -22,7 +22,13 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    
 }
 .start{
     padding: 10px;
+    margin: 10px;
+}
+.stop{
+    padding: 10px;
+    margin: 10px;
 }
